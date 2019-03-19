@@ -5,6 +5,6 @@ i = 0
 altered_array = []
 while i < collection.length
     altered_array << yield(collection[i])
-    i += 1
+    i = i + 1
   end
 end
