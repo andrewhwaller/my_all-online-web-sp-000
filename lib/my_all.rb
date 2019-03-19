@@ -7,7 +7,8 @@ def my_all?(collection)
       altered_array << yield(collection[i])
       i = i + 1
     end
-    if block_return_values.include? (false)
+
+    if altered_array.include? (false)
       false
     else
       true
